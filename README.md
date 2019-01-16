@@ -1,5 +1,5 @@
 ## UTD
-Courses taken in the domain of Computer Science at the University of Texas at Dallas.
+Lecture slides, assignments and projects of graduate courses taken in the Department of Computer Science at the University of Texas at Dallas.
 
 
 ## Courses Taken
