@@ -1,0 +1,14 @@
+\select@language {american}
+\select@language {american}
+\contentsline {section}{\numberline {1}Answers}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}}{1}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {(a)}Compute the mean squared error of an estimator using Monte Carlo simulation}{1}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {(b)}For a given combination(n, theta), compute the mean squared errors of estimators obtained using maximum likelihood estimation and method of moments}{1}{subsubsection.1.1.2}
+\contentsline {subsubsection}{\numberline {(c)}Repeat part (b) for the remaining combinations of (n, theta) and summarize your results graphically}{2}{subsubsection.1.1.3}
+\contentsline {subsubsection}{\numberline {(d)}Which estimator is better?}{4}{subsubsection.1.1.4}
+\contentsline {subsection}{\numberline {1.2}}{4}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {(a)}Derive an expression for the maximum likelihood estimator of theta}{4}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {(b)}Calculate an estimate for theta for the given data}{4}{subsubsection.1.2.2}
+\contentsline {subsubsection}{\numberline {(c)}Obtain the estimate by numerically maximizing log-likelihood function in R}{5}{subsubsection.1.2.3}
+\contentsline {subsubsection}{\numberline {(d)}Provide a standard error and a 95 percent confidence interval for theta}{6}{subsubsection.1.2.4}
+\contentsline {section}{\numberline {2}R Code}{7}{section.2}

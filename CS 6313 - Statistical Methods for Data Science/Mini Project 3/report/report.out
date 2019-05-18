@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{Answers}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{}{section.1}% 2
+\BOOKMARK [3][-]{subsubsection.1.1.1}{Compute the mean squared error of an estimator using Monte Carlo simulation}{subsection.1.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.2}{For a given combination\(n, theta\), compute the mean squared errors of estimators obtained using maximum likelihood estimation and method of moments}{subsection.1.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.1.3}{Repeat part \(b\) for the remaining combinations of \(n, theta\) and summarize your results graphically}{subsection.1.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.1.4}{Which estimator is better?}{subsection.1.1}% 6
+\BOOKMARK [2][-]{subsection.1.2}{}{section.1}% 7
+\BOOKMARK [3][-]{subsubsection.1.2.1}{Derive an expression for the maximum likelihood estimator of theta}{subsection.1.2}% 8
+\BOOKMARK [3][-]{subsubsection.1.2.2}{Calculate an estimate for theta for the given data}{subsection.1.2}% 9
+\BOOKMARK [3][-]{subsubsection.1.2.3}{Obtain the estimate by numerically maximizing log-likelihood function in R}{subsection.1.2}% 10
+\BOOKMARK [3][-]{subsubsection.1.2.4}{Provide a standard error and a 95 percent confidence interval for theta}{subsection.1.2}% 11
+\BOOKMARK [1][-]{section.2}{R Code}{}% 12

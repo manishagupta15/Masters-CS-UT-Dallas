@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{Answers}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{}{section.1}% 2
+\BOOKMARK [3][-]{subsubsection.1.1.1}{Scatterplot of GPA against ACT}{subsection.1.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.2}{Point estimate of population correlation}{subsection.1.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.1.3}{Bootstrap estimates of bias and standard error of the point estimate}{subsection.1.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.1.4}{95 per cent confidence interval computed using percentile bootstrap}{subsection.1.1}% 6
+\BOOKMARK [2][-]{subsection.1.2}{}{section.1}% 7
+\BOOKMARK [3][-]{subsubsection.1.2.1}{Exploratory analysis of the local and remote voltages distributions}{subsection.1.2}% 8
+\BOOKMARK [3][-]{subsubsection.1.2.2}{Can the manufacturing process be established locally?}{subsection.1.2}% 9
+\BOOKMARK [3][-]{subsubsection.1.2.3}{Compare conclusions drawn in \(b\) to the results of exploratory analysis in \(a\)}{subsection.1.2}% 10
+\BOOKMARK [2][-]{subsection.1.3}{}{section.1}% 11
+\BOOKMARK [1][-]{section.2}{R Code}{}% 12

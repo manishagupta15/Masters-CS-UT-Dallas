@@ -1,0 +1,11 @@
+\BOOKMARK [1][-]{section.1}{Answers}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{}{section.1}% 2
+\BOOKMARK [3][-]{subsubsection.1.1.1}{Do males and females differ in body temperature?}{subsection.1.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.2}{Do males and females differ in heart rate?}{subsection.1.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.1.3}{Is there a linear relationship between body temperature and heart rate? Does the relationship depend on temperature?}{subsection.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.2}{}{section.1}% 6
+\BOOKMARK [3][-]{subsubsection.1.2.1}{For a given setting of \(n,lambda\), compute Monte Carlo estimates for coverage probabilities of the 2 individuals}{subsection.1.2}% 7
+\BOOKMARK [3][-]{subsubsection.1.2.2}{Repeat \(a\) for remaining combinations of \(n,lambda\) and present a summary of the results}{subsection.1.2}% 8
+\BOOKMARK [3][-]{subsubsection.1.2.3}{Interpret the results}{subsection.1.2}% 9
+\BOOKMARK [3][-]{subsubsection.1.2.4}{Do the answers to \(c\) depend on the specific values of lambda that were fixed in advance?}{subsection.1.2}% 10
+\BOOKMARK [1][-]{section.2}{R Code}{}% 11

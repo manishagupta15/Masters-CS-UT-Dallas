@@ -1,0 +1,14 @@
+\select@language {american}
+\select@language {american}
+\contentsline {section}{\numberline {1}Answers}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}}{1}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {(a)}Scatterplot of GPA against ACT}{1}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {(b)}Point estimate of population correlation}{2}{subsubsection.1.1.2}
+\contentsline {subsubsection}{\numberline {(c)}Bootstrap estimates of bias and standard error of the point estimate}{2}{subsubsection.1.1.3}
+\contentsline {subsubsection}{\numberline {(d)}95 per cent confidence interval computed using percentile bootstrap}{2}{subsubsection.1.1.4}
+\contentsline {subsection}{\numberline {1.2}}{4}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {(a)}Exploratory analysis of the local and remote voltages distributions}{4}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {(b)}Can the manufacturing process be established locally?}{6}{subsubsection.1.2.2}
+\contentsline {subsubsection}{\numberline {(c)}Compare conclusions drawn in (b) to the results of exploratory analysis in (a)}{6}{subsubsection.1.2.3}
+\contentsline {subsection}{\numberline {1.3}}{6}{subsection.1.3}
+\contentsline {section}{\numberline {2}R Code}{8}{section.2}

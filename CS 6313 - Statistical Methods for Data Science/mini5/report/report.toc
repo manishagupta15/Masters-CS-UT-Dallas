@@ -1,0 +1,13 @@
+\select@language {american}
+\select@language {american}
+\contentsline {section}{\numberline {1}Answers}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}}{1}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {(a)}Do males and females differ in body temperature?}{1}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {(b)}Do males and females differ in heart rate?}{2}{subsubsection.1.1.2}
+\contentsline {subsubsection}{\numberline {(c)}Is there a linear relationship between body temperature and heart rate? Does the relationship depend on temperature?}{4}{subsubsection.1.1.3}
+\contentsline {subsection}{\numberline {1.2}}{6}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {(a)}For a given setting of (n,lambda), compute Monte Carlo estimates for coverage probabilities of the 2 individuals}{6}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {(b)}Repeat (a) for remaining combinations of (n,lambda) and present a summary of the results}{6}{subsubsection.1.2.2}
+\contentsline {subsubsection}{\numberline {(c)}Interpret the results}{7}{subsubsection.1.2.3}
+\contentsline {subsubsection}{\numberline {(d)}Do the answers to (c) depend on the specific values of lambda that were fixed in advance?}{7}{subsubsection.1.2.4}
+\contentsline {section}{\numberline {2}R Code}{7}{section.2}
