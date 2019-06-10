@@ -5,6 +5,11 @@ Current GPA: 3.81/4.0
 
 
 ## Courses Taken
+* CS 6350 - Big Data Analytics and Management
+
+* CS 6313 - Statistical Methods for Data Science
+
+* CS 6384 - Computer Vision
 
 * CS 6314 - Web Programming Languages
 
