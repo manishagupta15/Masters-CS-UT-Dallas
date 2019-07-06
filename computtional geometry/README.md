@@ -1,5 +1,5 @@
 ## CS 6301.004 - Computational Geometry
-Lecture slides, assignments and projects of graduate courses taken in the Department of Computer Science at the University of Texas at Dallas. 
+Lecture slides, assignments and projects of above course pursued independently at the Department of Computer Science at the University of Texas at Dallas. 
 
 
 
