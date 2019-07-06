@@ -1,7 +1,9 @@
 ## CS 6363 - Advanced Design and Analysis of Algorithms
 
 Instructor: Dr. Benjamin Raichel
+
 Semester: Fall 2018
+
 Course Number: 
 
 ### Evaluation
