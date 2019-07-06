@@ -2,9 +2,13 @@
 
 Instructor: Dr. Benjamin Raichel
 
+Semester : Fall 2018
 
 ### Evaluation
 Midterm: 77/100
+
+Final Exam: 82/100
+
 Grade Achieved: **A**
 
 
@@ -13,6 +17,7 @@ http://jeffe.cs.illinois.edu/teaching/algorithms/
 
 ### Reading Guide
 Below are the topics covered in each class. Topics on future dates may change.
+
 JN = Jeff's Notes, CLRS = Intro to Algorithms text book, numbers represent the relevant chapters.
 
     08/21: [CLRS 3] Introduction, what is an algorithm, growth of functions, asymptotic notation
