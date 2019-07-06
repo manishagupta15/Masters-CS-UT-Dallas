@@ -1,13 +1,12 @@
 ## CS 6363 - Design and Analysis of Algorithms
 
-Instructor: Dr. Benjamin Raichel
-
+Instructor: Dr. Benjamin Raichel__
 Semester : Fall 2018
 
 ### Evaluation
 Midterm: 77/100
 
-Final Exam: 82/100
+Final Exam: 82.0/100
 
 Grade Achieved: **A**
 
