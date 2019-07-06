@@ -1,17 +1,26 @@
-## CS 6363 - Design and Analysis of Algorithms
+## CS 6363 - Advanced Design and Analysis of Algorithms
 
-Instructor: Dr. Benjamin Raichel__
-Semester : Fall 2018
+Instructor: Dr. Benjamin Raichel
+Semester: Fall 2018
+Course Number: 
 
 ### Evaluation
-Midterm: 77/100
+Homework 1: 79.0/100
+
+Homework 2: 95.0/100
+
+Homework 3: 87.0/100
+
+Homework 4: 85.0/100
+
+Midterm: 77.0/100
 
 Final Exam: 82.0/100
 
 Grade Achieved: **A**
 
 
-### Jeff Eriksen Notes:
+### Jeff Eriksen Notes
 http://jeffe.cs.illinois.edu/teaching/algorithms/
 
 ### Reading Guide
