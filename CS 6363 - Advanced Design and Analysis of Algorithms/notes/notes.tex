@@ -1,0 +1,96 @@
+%!TEX program = <xelatex>
+\documentclass[12pt,letterpaper,titlepage]{article}
+
+\usepackage{basicstyle}
+\usepackage{notestyle}
+\pdfminorversion=7
+
+\title{
+    \vspace{1in}
+    \textmd{\textbf{Class Notes for CS6363}}\\
+    \textbf{\Large{Design and Analysis of Computer Algorithms}}\\
+    \large\vspace{0.1in}\textit{Instructor: Benjamin Raichel}\\
+    \vspace{0.1in}\normalsize{University of Texas at Dallas}\\
+    Department of Computer Science\\
+    \vspace{0.1in}\includegraphics[height=2.4em]{fig/UTD_logo_BW}\\
+    \vspace{2in}
+}
+\author{Hanlin He\\\vspace{0.1in}\includegraphics[height=4em]{fig/comets_logo_black.pdf}}
+\date{}
+
+\makeindex
+\begin{document}
+
+\maketitle
+
+\pagestyle{empty}
+\section*{About This Note}
+These are lecture notes taken from \emph{CS6363: Design and Analysis of Computer Algorithms} taught by Benjamin Raichel
+at University of Texas at Dallas in Fall 2016.
+
+The first part of the note is generally based on the famous CLRS, though they are the copy from instructor's mysterious notebook.
+The latter part (starting from graph algorithm) is basically the same as
+\href{http://jeffe.cs.illinois.edu/teaching/algorithms/}{Jeff Erickson's Lecture Notes},
+which Benjamin strongly recommended as off-class additional reading material.
+
+Taking note in Ben's class is a pleasant experience, though there might be some times
+in the semester you are unable to read the note on blackboard.
+I hope this note would help you, if you are taking the same class as I did.
+I wish you receive a good grade in this course and all other courses in the future.
+
+\vfill
+\begin{center}
+\begin{tikzpicture}
+\node[graduate,stripes=orange,hair=black,monitor,saturated,sword,shield,minimum size=1.5cm] {};
+\end{tikzpicture}
+\end{center}
+
+\pagebreak
+
+\pagestyle{plain}
+\pagenumbering{Roman}
+\tableofcontents
+\pagebreak
+\listoffigures
+\listoftables
+\pagebreak
+\listofalgorithms
+\pagebreak
+
+\pagenumbering{arabic}
+
+\input{tex/basic}
+
+\pagebreak
+
+\input{tex/asymptotic}
+
+\pagebreak
+
+\input{tex/series}
+
+\pagebreak
+
+\input{tex/recursion}
+
+\pagebreak
+
+\input{tex/sort}
+
+\pagebreak
+
+\input{tex/dynamicprogramming}
+
+\pagebreak
+
+\input{tex/greedy}
+
+\pagebreak
+
+\input{tex/graph}
+
+\pagebreak
+
+\input{tex/np}
+
+\end{document}

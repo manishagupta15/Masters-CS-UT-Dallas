@@ -1,0 +1,27 @@
+\ProvidesPackage{notestyle}
+
+% **** Note specified command.
+
+\RequirePackage{tikzpeople}
+
+% Use these for theorems, lemmas, proofs, etc.
+\theoremstyle{plain} % default
+\newtheorem{theorem}{Theorem}[subsection]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+
+% Use these for algorithm analysis.
+\newcommand*{\question}{\vspace{0.1in}\noindent \textbf{Question:}\qquad   }
+\newcommand*{\analysis}{\vspace{0.1in}\noindent \textbf{Analysis:}\qquad   }
+\newcommand*{\observation}{\vspace{0.1in}\noindent \textbf{Observation:}\qquad   }
+\newcommand*{\Note}{\vspace{0.1in}\noindent \textbf{Note:}\qquad   }
+\newcommand*{\AlgoInput}{\vspace{0.1in}\noindent \textbf{Input:}\qquad   }
+\newcommand*{\AlgoOutput}{\vspace{0.1in}\noindent \textbf{Output:}\qquad   }
+\newcommand*{\AlgoExample}{\vspace{0.1in}\noindent \textbf{Example:}\qquad   }
+
+\newcommand{\ProblemDescription}{\vspace{0.1in}\textbf{Problem Description:}\ }
