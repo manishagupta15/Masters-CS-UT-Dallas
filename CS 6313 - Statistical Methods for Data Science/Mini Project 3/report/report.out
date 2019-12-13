@@ -8,5 +8,3 @@
 \BOOKMARK [3][-]{subsubsection.1.2.1}{Derive an expression for the maximum likelihood estimator of theta}{subsection.1.2}% 8
 \BOOKMARK [3][-]{subsubsection.1.2.2}{Calculate an estimate for theta for the given data}{subsection.1.2}% 9
 \BOOKMARK [3][-]{subsubsection.1.2.3}{Obtain the estimate by numerically maximizing log-likelihood function in R}{subsection.1.2}% 10
-\BOOKMARK [3][-]{subsubsection.1.2.4}{Provide a standard error and a 95 percent confidence interval for theta}{subsection.1.2}% 11
-\BOOKMARK [1][-]{section.2}{R Code}{}% 12

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 APR 2019 02:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  29 SEP 2019 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1357,91 +1357,29 @@ File: ci.jpeg Graphic file (type jpg)
  <use ci.jpeg>
 Package pdftex.def Info: ci.jpeg used on input line 350.
 (pdftex.def)             Requested size: 388.45424pt x 255.95822pt.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 353.
 
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `pcr' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+! Package Listings Error: File `/users/psprao/downloads/stats/R-code/project3/Q
+1(.R)' not found.
 
-(/users/psprao/downloads/stats/R-code/project3/Q1.R
-LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <10> not available
-(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 2.
- [6 <./ci.jpeg>]
-LaTeX Font Info:    Try loading font information for OML+pcr on input line 6.
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: R)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlpcr.fd
-File: omlpcr.fd 
-)
-LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 6.
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 7.
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.353 ...rao/downloads/stats/R-code/project3/Q1.R}
+                                                  ^^M
+*** (cannot \read from terminal in nonstop modes)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omspcr.fd
-File: omspcr.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
-LaTeX Font Info:    Try loading font information for TS1+pcr on input line 37.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ts1pcr.fd
-File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `pcr' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [7] [8]
-[9]) (/users/psprao/downloads/stats/R-code/project3/Q2.R [10])
-
-Package nag Warning: 10 complaints in total.
-
-[11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 357.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
- (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 357.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 357.
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 135F82FB476BF3CEF94E95775AD906CC;1270.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 29184 strings out of 492995
- 546464 string characters out of 6132704
- 859788 words of memory out of 5000000
- 31900 multiletter control sequences out of 15000+600000
- 16979 words of font info for 79 fonts, out of 8000000 for 9000
+ 28643 strings out of 492995
+ 538985 string characters out of 6132704
+ 701789 words of memory out of 5000000
+ 31607 multiletter control sequences out of 15000+600000
+ 14795 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,72p,828b,2079s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2017/texmf-dist
-/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
-ype1/urw/courier/ucrr8a.pfb>
-Output written on report.pdf (13 pages, 841384 bytes).
-PDF statistics:
- 492 PDF objects out of 1000 (max. 8388607)
- 449 compressed objects within 5 object streams
- 254 named destinations out of 1000 (max. 500000)
- 18561 words of extra memory for PDF output out of 20736 (max. 10000000)
-
+ 62i,13n,72p,828b,497s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
