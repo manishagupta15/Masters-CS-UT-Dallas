@@ -7,6 +7,12 @@ Current GPA: 3.73/4.0
 
 
 ## Courses Taken
+* CS 6380 - Distributed Computing
+
+* CS 6385 - Algorithmic Aspects of Telecommunication Networks
+
+* CS 6359 - Object Oriented Analysis and Design
+
 * CS 6350 - Big Data Analytics and Management
 
 * CS 6313 - Statistical Methods for Data Science
