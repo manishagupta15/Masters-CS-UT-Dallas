@@ -1,0 +1,8 @@
+What is the visitor design pattern?
+
+- Allows you to add methods to classes of different types without 
+much altering to those classes
+- you can make completely different methods depending 
+on the class used 
+- Allows you to define external classes that can extend other classes
+without majorly editing them

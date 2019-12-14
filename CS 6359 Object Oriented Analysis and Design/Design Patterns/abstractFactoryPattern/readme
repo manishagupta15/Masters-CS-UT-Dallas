@@ -1,0 +1,16 @@
+What is abstract factory pattern?
+- It is like a factory pattern, but everything is encapsulated
+	- The method that orders the object
+	- The factories that build the object
+	- The final object
+	- the final objects contain objects that use the strategy pattern 
+		- Strategy use composition: Object class fields are objects
+		
+What can we do with Abstract Factory Pattern?
+- Create families of related objects without specifying a concrete class
+- Use when you have many objects that can be added, or changed dynamically during runtime
+- You can model anything you can imagine and have those objects interact through interfaces
+- The bad thing is it can get complicated
+
+
+		

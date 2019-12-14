@@ -1,0 +1,7 @@
+What is the composite design pattern?
+
+- Allows you to treat individual objects and compositions objects uniformly
+- They allow you to represent part-whole hierarchies 
+	- components can be further divided into smaller components
+- You can structure data, or represent the inner working of every part of
+ a whole object individually 

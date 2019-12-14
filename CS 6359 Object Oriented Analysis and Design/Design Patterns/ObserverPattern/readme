@@ -1,0 +1,17 @@
+When to use the observer pattern?
+- When you need many other objects to receive an update 
+  when another object changes
+		- stock market with thousands of stocks needs to send updates to
+		objects representing individual stocks
+		- the Subject  (Publisher) sends many stocks to the Observers
+		- The Observers (Subscribers) takes the one that they want and use them
+		
+		
+What is the benefit?
+- loose coupling is a benefit
+	- The subject (publisher) does'nt need to know anything about the 
+	Observer (Subscriber) 
+	
+	
+- Negative: The Subject (publisher) may send updates that dont matter to
+ the Observer (Subscriber)

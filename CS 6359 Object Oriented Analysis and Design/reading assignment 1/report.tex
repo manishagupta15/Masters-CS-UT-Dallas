@@ -1,0 +1,145 @@
+\documentclass[12pt,letterpaper,titlepage,en-US]{article}
+
+\usepackage{basicstyle}
+\usepackage{report}
+\usepackage{knit}
+
+\definecolor{lbcolor}{rgb}{0.969, 0.969, 0.969} 
+\setlength\parindent{0pt}
+ \lstset{ 
+    language=C++, % choose the language of the code
+    basicstyle=\fontfamily{pcr}\selectfont\footnotesize\color{black},
+    keywordstyle=\color{black}, % style for keywords
+    numbers=none, % where to put the line-numbers
+    numberstyle=\tiny, % the size of the fonts that are used for the line-numbers     
+    backgroundcolor=\color{lbcolor},
+    showspaces=false, % show spaces adding particular underscores
+    showstringspaces=false, % underline spaces within strings
+    showtabs=false, % show tabs within strings adding particular underscores
+    frame=single, % adds a frame around the code
+    tabsize=2, % sets default tabsize to 2 spaces
+    rulesepcolor=\color{gray},
+    rulecolor=\color{black},
+    captionpos=b, % sets the caption-position to bottom
+    breaklines=true, % sets automatic line breaking
+    breakatwhitespace=false, 
+}
+%
+% Homework Details
+%   - Title
+%   - Due date
+%   - Class
+%   - Section/Time
+%   - Instructor
+%   - Author
+%
+
+\newcommand{\hmwkTitle}{Reading Assignment \#1}
+\DTMsavetimestamp{DueDate}{2019-09-01T12:00:00-00:00}
+\newcommand{\hmwkClass}{CS 6359.001}
+\newcommand{\hmwkClassName}{Object Oriented Analysis and Design}
+\newcommand{\hmwkClassInstructor}{Instructor: Prof.Mehra Nouroz Borazjany}
+\newcommand{\hmwkAuthorName}{Shyam Patharla}
+\newcommand{\hmwkAuthorNetID}{sxp178231}
+
+\newcommand{\hmwkAuthorOneName}{Lizhong Zhang (lxz160730)}
+\newcommand{\hmwkAuthorTwoName}{Hanlin He (hxh160630)}
+
+
+
+%
+% Title Page
+%
+
+\title{
+    \vspace{1in}
+    \textmd{\textbf{\hmwkClassName \\\hmwkClass:\ \hmwkTitle }}\\
+    \normalsize\vspace{0.1in}\small{Due\ on\ \DTMusedate{DueDate}\ at \DTMusetime{DueDate} }\\
+    \vspace{0.1in}\large{\textit{\hmwkClassInstructor}}\\
+    \vspace{0.5in}\includegraphics[height=2.4em]{UTD_logo_BW}\\
+    \vspace{2in}
+}
+
+\author{\textbf{\hmwkAuthorName\ \footnotesize{(\hmwkAuthorNetID)}} \\ }
+\date{}
+\makeindex
+
+\begin{document}
+\maketitle
+
+
+\pagenumbering{arabic}
+
+
+
+\textbf{1. Why is system engineering considered an interdisciplinary approach?}\\
+To design complex systems, we usually need skilled people and resources from more than one discipline to create the subsystems required for the desired system to be created. Hence, systems engineering is considered a multidisciplinary approach.\\
+
+
+\textbf{2. What is the relationship between system engineering and software engineering?}\\
+System engineering refers to designing, implementing and testing a large and complex system. The system may be
+\begin{itemize}
+\item large or small
+\item simple or complex
+\item unidisciplinary or  multidisciplinary\\
+Software engineering focuses on a set processes needed to create high quality software for a given application. It can be considered a component of system engineering.
+\end{itemize}
+
+
+
+ \textbf{3. What is the system requirement?}\\
+  System requirement is a set of goals that the system (which is to be created), once created, fulfills. System requirements are specified only after the client has fully described their business/product goals and these are transformed into a set of requirements.
+  
+  
+  \begin{itemize}
+\item \textbf{What is a system requirements specification?}\\
+A list of requirements which the system to be designed must be fulfilled. It is arrived at after several rounds of 
+\begin{itemize}
+\item consultation with clients  asking them what they need
+\item trying our different models
+\item analysing the feasibility of these requirements
+\item refining the list   of requirements after getting feedback from clients
+\end{itemize}
+        
+        
+        
+        
+        
+  \item \textbf{What is a constraint? }\\
+  A constraint is a restriction or limit within which the system must be designed and implemented.
+  
+  \item \textbf{ What is the difference between constraint and requirement?}\\
+  A constraint is a restriction or limit within which the system must be designed and implemented whereas requirement is something the system must fulfill once it is operational.
+        
+        
+        \item \textbf{What is the project plan?}\\
+        A project plan is a list of phases and detailed steps to execute each phase to create a system. It must also include deadlines to finish specific tasks or phases, requirement specifications and constraints which must be met in course of completing the project.
+        
+       \item \textbf{What is the system test plan?}\\
+       A list of steps and procedures to test whether a system or subsystem satisfies the list of requirements it was originally supposed to.
+       
+       \end{itemize}
+        
+    \textbf{4. Why and how does the system engineer decompose a system?}\\
+    System decomposition simplifies design of large systems by dividing it into relatively smaller subsystems which can be implemented separately and later on combined to create the system. A system engineer can decompose a system based on:
+    \begin{itemize}
+    \item functions which a system performs
+    \item engineering discipline
+    \item existing models of application
+    \item existing architecture
+    \end{itemize}
+    
+    
+    
+    \textbf{5. What is a requirement-subsystem traceability matrix?}\\
+    It is a matrix where the mapping between the implementation or improvement of a requirement at any given subsystem level can be found out.\\
+    
+    
+    
+   \textbf {6. What is a SysML? What is UML?}\\
+  SysML is  a generic modeling language used to design any kind of systems.  UML, on the other hand is uses object oriented concepts such as classes, objects and relationships to design systems and is more suited for software design applications.
+
+
+
+
+\end{document}

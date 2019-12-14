@@ -1,0 +1,9 @@
+What is the facade design pattern?
+- when you create a simplified interface that performs many other actions
+behind the scenes
+- Can I withdrawal $50 from the bank?
+	- check if the checking account is valid
+	- check if the security code is valid
+	- check if funds are available
+	- Make changes accordingly
+	 

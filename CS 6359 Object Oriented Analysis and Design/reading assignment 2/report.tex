@@ -1,0 +1,237 @@
+\documentclass[12pt,letterpaper,titlepage,en-US]{article}
+
+\usepackage{basicstyle}
+\usepackage{report}
+\usepackage{knit}
+
+\definecolor{lbcolor}{rgb}{0.969, 0.969, 0.969} 
+\setlength\parindent{0pt}
+ \lstset{ 
+    language=C++, % choose the language of the code
+    basicstyle=\fontfamily{pcr}\selectfont\footnotesize\color{black},
+    keywordstyle=\color{black}, % style for keywords
+    numbers=none, % where to put the line-numbers
+    numberstyle=\tiny, % the size of the fonts that are used for the line-numbers     
+    backgroundcolor=\color{lbcolor},
+    showspaces=false, % show spaces adding particular underscores
+    showstringspaces=false, % underline spaces within strings
+    showtabs=false, % show tabs within strings adding particular underscores
+    frame=single, % adds a frame around the code
+    tabsize=2, % sets default tabsize to 2 spaces
+    rulesepcolor=\color{gray},
+    rulecolor=\color{black},
+    captionpos=b, % sets the caption-position to bottom
+    breaklines=true, % sets automatic line breaking
+    breakatwhitespace=false, 
+}
+%
+% Homework Details
+%   - Title
+%   - Due date
+%   - Class
+%   - Section/Time
+%   - Instructor
+%   - Author
+%
+
+\newcommand{\hmwkTitle}{Reading Assignment \#2}
+\DTMsavetimestamp{DueDate}{2019-09-15T11:59:00+00:00}
+\newcommand{\hmwkClass}{CS 6359.001}
+\newcommand{\hmwkClassName}{Object Oriented Analysis and Design}
+\newcommand{\hmwkClassInstructor}{Instructor: Prof.Mehra Nouroz Borazjany}
+\newcommand{\hmwkAuthorName}{Shyam Patharla}
+\newcommand{\hmwkAuthorNetID}{sxp178231}
+
+\newcommand{\hmwkAuthorOneName}{Lizhong Zhang (lxz160730)}
+\newcommand{\hmwkAuthorTwoName}{Hanlin He (hxh160630)}
+
+
+
+%
+% Title Page
+%
+
+\title{
+    \vspace{1in}
+    \textmd{\textbf{\hmwkClassName \\\hmwkClass:\ \hmwkTitle }}\\
+    \normalsize\vspace{0.1in}\small{Due\ on\ \DTMusedate{DueDate}\ at \DTMusetime{DueDate} }\\
+    \vspace{0.1in}\large{\textit{\hmwkClassInstructor}}\\
+    \vspace{0.5in}\includegraphics[height=2.4em]{UTD_logo_BW}\\
+    \vspace{2in}
+}
+
+\author{\textbf{\hmwkAuthorName\ \footnotesize{(\hmwkAuthorNetID)}} \\ }
+\date{}
+\makeindex
+
+\begin{document}
+\maketitle
+
+
+\pagenumbering{arabic}
+
+
+
+\textbf{1. What is Software Architectural Design and why is it so important?}\\
+A software architectural design is a decision making process or a set of decisions which are taken to create the software architecture of the system to be created.
+
+\begin{itemize}[noitemsep,nolistsep]
+\item A software architectural design for a system has long term and long reaching impacts on the system's:
+\begin{itemize}[noitemsep,nolistsep]
+\item adaptibility to changes
+\item performance and efficiency
+\item security and maintenance
+\end{itemize}
+
+\item It is needed for conceptualizing, managing and evolving the system while it is being created.
+
+\item software architectural design flaws may lead to system not being successfully created or system crash when it is operational.\\
+\end{itemize}
+
+\textbf{2. What is the architectural design process?}\\
+The architectural design process for a system  is a decision making process to make an architectural plan for a system. It involves steps such as
+\begin{itemize}[noitemsep,nolistsep]
+\item formulate the \textbf{design objectives} i.e. the goals that must be achieved by the architectural design
+\item the \textbf{type} of system to be developed
+\item based on the above two steps, select an \textbf{existing} architectural style from the available set or make a \textbf{custom} architectural design
+\item specify the \textbf{functions,  interfaces and interactions} of the system with other systems or subsystems
+\item \textbf{review} the architectural design and see whether the design objectives were met or not\\
+
+\end{itemize}
+
+
+
+ \textbf{3.	What are the most common types of systems? Find an example for each type of the system.}\\
+  The commonly observed types of systems are:
+  \begin{itemize}[noitemsep,nolistsep]
+  \item Interactive systems (eg. a web browser which interacts with a user)
+  \item Event driven systems (eg. a fire alarm system, which detects smoke)
+  \item Transformational systems (eg. a compiler which transforms the source code to the desired output, or shows an error)
+  \item Object persistence/ database systems (eg. a bank database)
+  \end{itemize}
+  
+  
+  
+  \begin{itemize}
+\item \textbf{What are the main characteristics of an interactive system?}
+\begin{itemize}[noitemsep]
+\item interacts with an actor, which could be a human or another system
+\item must respond to all queries of the actor
+\item similar to a client-server relationship
+\item consists of a fixed sequence of requests and responses
+\item interaction begins and ends with the actor (usually a single actor in the process of a use case)
+\end{itemize}
+        
+        
+
+\item \textbf{What are the main characteristics of an event-driven system?}
+\begin{itemize}[noitemsep,nolistsep]
+\item system receives events from and controls external entities
+\item do not have a fixed sequence of requests and responses
+\item do not have to respond to all events
+\item often interact with more than one external entity at the same time, which is usually a system
+\end{itemize}
+
+
+\item \textbf{What are the main characteristics of a transformational system?}
+\begin{itemize}[noitemsep,nolistsep]
+\item consists of a network of information processing each of which transforms some input into some output
+\item is usually stateless
+\item while the transformation of input to output is being done, there is no interaction between actor and system
+\item may require computation-intensive algorithms
+\item actor may be human or another system
+\end{itemize}
+
+
+\item \textbf{What are the main characteristics of a object persistence system?}
+\begin{itemize}[noitemsep,nolistsep]
+\item used to store objects in a database and retrieve them later
+\item databases may be relational, hierarchial or object oriented
+\item uses a database manager to provide an object oriented interface to access the objects in the database
+\end{itemize}
+
+\end{itemize}
+        
+        
+        
+   \textbf{4. What is an architectural style?}\\
+   An architectural style is a generic architectural design that may be used to create the architectural design for a system.\\
+
+  
+   \textbf{5. Why different types of systems require different design methods?}\\
+   Because a design method which works well for one system may not work well for another system. This usually happens due to mismatch between the design methodology and the system which requires a certain software architecture.\\
+   
+   
+   
+\textbf{6. Why do we need to perform custom architectural design?}
+
+
+When none of the available architectural styles are suited for the type of system we are building and are unable to fulfill the design objectives, a customized architectural design must be performed for this system.\\
+        
+        
+         \textbf{7. What is a package diagram?}\\
+        A package diagram is logical view of the classes of our system. During software development, a variety of software items are produced. A package diagram helps the understand which software items belong to which package. It helps us in managing the system software components.\\
+        
+        \textbf{8. What are software design principles?}\\
+       Software design principles are widely accepted guidelines in the software industry, which if implemented, can significantly improve the quality of our software. These are better approaches learnt by organisations in the software industry over a large period of time.
+       
+\begin{itemize}[noitemsep,nolistsep]
+\item \textbf{Design for change}: Design the architecture such that it can adapt to changes in the future.
+\item \textbf{Separation of concerns}: Focus on one aspect of the problem at a time rather than tackle all aspects simultaneously.
+\item \textbf{Information hiding}: Hide the implementation details of a software component so any changes to the component does not impact  other components of the software system. 
+\item \textbf{High cohesion}: achieving a higher degree of relevance of the functions of a module to the module’s core functionality. 
+\item \textbf{Low Coupling}: Reducing the run-time effect and change impact of a subsystem to other subsystems. \\
+\end{itemize}
+
+
+       
+       
+        
+
+    
+    
+    
+    \textbf{9. Which agile principles should be applied during architectural design?}
+    
+    \begin{itemize}[noitemsep,nolistsep]
+    \item \textbf{Value working software over comprehensive documentation}
+    
+    \begin{itemize}[noitemsep,nolistsep]
+    \item Over-documenting the architecture must be avoided.
+    \item Comprehensive documentation of architecture consumes a lot of time and resources and pushes the actual implementation back.
+    \item the design architecture generally evolves and is refined as iterations are implemented, hence wasting too much time on documentation of design architecture in the beginning is not good.
+    \end{itemize}
+    
+    
+    \item \textbf{Apply the 20/80 rule i.e good enough is enough}
+ 
+    \begin{itemize}[noitemsep,nolistsep]
+    \item There is no optimal architecture for a system.
+    \item It is better to proceed with a good enough architecture in the beginning and improve it over many iterations.
+    \item Beyond a certain point, returns over improvement in architecture are negligible.\\
+    \end{itemize}
+    
+    \end{itemize}
+    
+    
+    
+   \textbf {10. What is an architectural design and what is a design pattern?}\\
+  Design patterns are generally proven good solutions to common design problems. Architectural design is the actual design for the software system which we create. Hence design patterns are used in the process of creating an architectural design for our system.\\
+  
+  \begin{itemize}[nolistsep,noitemsep]
+\item  \textbf {What is an MVC pattern?}\\
+The MVC pattern is a design pattern. It consists of:
+\begin{itemize}[noitemsep,nolistsep]
+\item a data model
+\item a controller, and
+\item a number of views
+
+\end{itemize}
+The controller separates the views from the data model, which allows the same data to be displayed in different views.
+
+  \end{itemize}
+
+
+
+
+\end{document}

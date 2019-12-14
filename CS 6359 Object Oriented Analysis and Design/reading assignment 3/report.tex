@@ -1,0 +1,166 @@
+\documentclass[12pt,letterpaper,titlepage,en-US]{article}
+
+\usepackage{basicstyle}
+\usepackage{report}
+\usepackage{knit}
+
+\definecolor{lbcolor}{rgb}{0.969, 0.969, 0.969} 
+\setlength\parindent{0pt}
+ \lstset{ 
+    language=C++, % choose the language of the code
+    basicstyle=\fontfamily{pcr}\selectfont\footnotesize\color{black},
+    keywordstyle=\color{black}, % style for keywords
+    numbers=none, % where to put the line-numbers
+    numberstyle=\tiny, % the size of the fonts that are used for the line-numbers     
+    backgroundcolor=\color{lbcolor},
+    showspaces=false, % show spaces adding particular underscores
+    showstringspaces=false, % underline spaces within strings
+    showtabs=false, % show tabs within strings adding particular underscores
+    frame=single, % adds a frame around the code
+    tabsize=2, % sets default tabsize to 2 spaces
+    rulesepcolor=\color{gray},
+    rulecolor=\color{black},
+    captionpos=b, % sets the caption-position to bottom
+    breaklines=true, % sets automatic line breaking
+    breakatwhitespace=false, 
+}
+%
+% Homework Details
+%   - Title
+%   - Due date
+%   - Class
+%   - Section/Time
+%   - Instructor
+%   - Author
+%
+
+\newcommand{\hmwkTitle}{Reading Assignment \#3}
+\DTMsavetimestamp{DueDate}{2019-09-22T12:00:00-00:00}
+\newcommand{\hmwkClass}{CS 6359.001}
+\newcommand{\hmwkClassName}{Object Oriented Analysis and Design}
+\newcommand{\hmwkClassInstructor}{Instructor: Prof.Mehra Nouroz Borazjany}
+\newcommand{\hmwkAuthorName}{Shyam Patharla}
+\newcommand{\hmwkAuthorNetID}{sxp178231}
+
+\newcommand{\hmwkAuthorOneName}{Lizhong Zhang (lxz160730)}
+\newcommand{\hmwkAuthorTwoName}{Hanlin He (hxh160630)}
+
+
+
+%
+% Title Page
+%
+
+\title{
+    \vspace{1in}
+    \textmd{\textbf{\hmwkClassName \\\hmwkClass:\ \hmwkTitle }}\\
+    \normalsize\vspace{0.1in}\small{Due\ on\ \DTMusedate{DueDate}\ at \DTMusetime{DueDate} }\\
+    \vspace{0.1in}\large{\textit{\hmwkClassInstructor}}\\
+    \vspace{0.5in}\includegraphics[height=2.4em]{UTD_logo_BW}\\
+    \vspace{2in}
+}
+
+\author{\textbf{\hmwkAuthorName\ \footnotesize{(\hmwkAuthorNetID)}} \\ }
+\date{}
+\makeindex
+
+\begin{document}
+\maketitle
+
+
+\pagenumbering{arabic}
+
+
+
+\textbf{1. Define what is actor?}\\
+An actor is a business role played on behalf of entities which are external to the system and interacts with the system.
+
+
+\begin{itemize}[nolistsep,noitemsep]
+
+\item \textbf{What are the three kinds of actors?}
+
+Primary actors: These actors directly have their business task fulfilled by the use case (eg. person withdrawing cash from an ATM system).
+
+Supporting actors: These actors provide specific services to system (eg. bank database for an ATM system)
+
+Offstage actors: These actors are not directly involved in the use case but have an interest in the proper functioning of the system and execution of use cases. (eg. the bank whose ATM machine it is)
+
+\item \textbf{What is an actor goal?}\\
+An actor goal is a business task which the actor wants to accomplish using the system or use case. An actor can have many actor goals.\\
+
+\end{itemize}
+
+\textbf{2. Define what is a use case?  }\\
+A use case is a business process which
+\begin{itemize}[noitemsep,nolistsep]
+\item starts with an actor
+\item ends with an actor
+\item does something which is useful for the actor\\
+\end{itemize}
+
+
+\begin{itemize}[noitemsep,nolistsep]
+\item \textbf{Are they diagrams?}\\
+A use case is not necessarily a diagram but can be represented by a use case diagram. Other ways of representation include just abstract use case (just use case name along with actor name and subsystem name) , high level use case (only begin and end actions) and extended use case (detailed description).\\
+
+\item \textbf{Are they functional requirements?}\\
+Functional requirements are goals which must be met for the system to be operational. Use cases are drawn from functional requirements and represent business processes involving actors and system/subsystems.\\
+
+\end{itemize}
+
+
+
+ \textbf{3.	How we select a name for a use case? What is an abstract use case?}\\
+  While we deduct use cases from the requirements specification, we look for \textbf{verb-noun} phrases which represent "do something". We also look for \textbf{nouns} which represents actors/systems/subsystems. Once all these are identified, we check the following conditions:
+ \begin{itemize}[nolistsep,noitemsep]
+ \item Is it a business process?
+ \item Is it started by an actor?
+ \item Does it end when the actor performs an action?
+ \item Does it do something useful for the actor?
+ 
+ 
+ \end{itemize}
+If all the conditions are satisfied, we conclude that it is a use case and choose the verb-noun phrase as the name (eg. \textbf{withdraw cash} in case of ATM machine).\\
+
+  
+  An \textbf{abstract use case} specifies only the name of the use case, generally a verb-noun phrase. We could include the name of the actor and system name in brackets).\\
+  
+  
+
+    \textbf{4. What is the relation between a use case and an actor goal?}\\
+    A use case is the business process through which an actor satisfies an actor goal. In a use case diagram, we draw a link (\textbf{association} relationship) between the actor and the use case to indicate which use case is used to satisfy a particular actor goal.\\    
+        
+        
+        
+   \textbf{5. What is a common use case format? }\\
+  A use case can be represented as an
+  
+  \begin{itemize}[noitemsep,nolistsep]
+  \item \textbf{Abstract Use Case}: Specifies only the name of the use case, generally a verb-noun phrase. We could include the name of the actor and system name in brackets.
+  \item \textbf{High Level Use Case}: Specifies the scope of the use case i.e. when and where the use case begins (TUCBW) and when the use case ends (TUCEW)
+  \item  \textbf{Expanded Use Case}: Outlines the steps involved in how the actor interacts with the system and how the use case \\
+  \end{itemize}
+  
+\textbf{6.	Define what are use case scenarios? }\\
+A use case is a \textbf{business process} consists of many \textbf{operations}, which in turn are composed of several \textbf{actions} or steps. At any step/operation in the process, there could be multiple ways of the use case proceeding further (eg. failed input, processing error, different branch in flow, successfully processed, etc). Use case scenarios are multiple paths which can occur during the steps of a use case are executed. \\
+
+    
+    
+    
+    \textbf{7. What is a requirement use case traceability matrix?}\\
+    It is a matrix where we specify which use case is derived from which requirement. Each requirement has a priority associated with it. The priority of a use case is the maximum of the priorities of all the requirements it is associated with.
+    \begin{itemize}[noitemsep,nolistsep]
+    \item It is useful to see which use cases are not required i.e. they do not satisfy any requirement and eliminate them 
+    \item Whether each requirement is satisfied by atleast one use case i.e. no empty rows
+    \item Assign higher priority use cases to initial iterations and developed faster\\
+    \end{itemize}
+    
+    
+
+
+\textbf{Source:} Object Oriented Software Engineering: An Agile Unified Methodology, David C. Kung, McGrawHill
+
+
+
+\end{document}
